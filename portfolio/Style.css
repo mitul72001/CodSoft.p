@@ -1,0 +1,191 @@
+body{
+    background-color:rgb(25, 25, 51) ;
+    color:azure;
+    font-family: italic;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+main hr{
+   
+    background: rgb(163, 111, 227);
+    height: 1.2px;
+    margin: 40px 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(43, 43, 67);
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:lightseagreen ;
+}
+header .left{
+    font-size: 1.5em;
+    
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.left{
+    font-size: 2.5rem;
+    padding: 20px;
+}
+ .right img{
+    width: 250px;
+    border-radius: 15px;
+}
+section.sec{
+    margin: 80px;
+}
+section p{
+    font-size: larger;
+    padding: 30px 70px;
+}
+.sec h2{
+    font-size: 1.2em;
+  max-width:80vw ;
+  margin :auto;
+ }
+.third {
+    max-width: 80vw;
+    margin:auto;
+    height: 50vh;
+}
+ .third .box{
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.third .box .vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.text{
+    position: relative;
+    top: 90px;
+    width: 200px;
+}
+.text-ab{
+    position: relative;
+    top: 100px;
+    width: 150px;
+    font-size:0.8em ;
+}
+.edu p{
+    color: rgb(225, 70, 70);
+}
+.edu span{
+    padding :0 70px;
+}
+.edu h3{
+  width: 50px;
+    padding:20px 50px;
+}
+.fourth{
+    max-width: 80vw;
+    margin:auto;
+    height: 50vh;  
+}
+.project{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top:50px ;
+    
+    
+}
+.project div{
+    background:#262626 ;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+ 
+}
+.project div h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.project  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.project  :hover{
+ background: #f5427b;
+ transform: translate(-10pxs);
+ 
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0
+}
+.resume{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    background:#262626;
+
+}
+.resume:hover{
+    background: #f5427b;
+    transform: translate(-10pxs);
+}
+form{
+    width: 100%;
+
+}
+form input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
